@@ -1,0 +1,12 @@
+.myNavbar {
+    background-color: black;
+}
+
+.myNavbarText {
+    color: yellow !important;
+    font-weight: bold;
+}
+
+    .myNavbarText a {
+        color: yellow !important;
+    }

@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+import Header from './Header';
+import Counter from './Counter';
 import './App.css';
+import React from "react";
+import Menu from "./components/menu/Menu";
+import UserCard from "./components/Cards/UserCard"
+
+const users = [
+    { name: "Bohdan", age: 25, city: "Shjutomyr" },
+    { name: "Myroslav", age: 60, city: "Berduchiv" },
+    { name: "Anastasia", age: 40, city: "Tysmenytsia" }
+]
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <section className="app">
+            <header className="app-header">
+                <Menu />
+            </header>
+
+            <div>
+                <Header />
+                <h1>My first React-project!</h1>
+                <Counter />
+            </div>
+
+            <div className="cards-container">
+                {users.map((user, index) => (
+                    <UserCard key={index} {...user} />
+                ))}
+            </div>
+
+        </section>
+    );
 }
+
 
 export default App;
