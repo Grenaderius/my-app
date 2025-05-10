@@ -16,3 +16,12 @@ button {
     gap: 10px;
     justify-content: center;
 }
+
+.app-header {
+    z-index: auto;
+    overflow: visible;
+}
+
+p{
+    color: black !important;
+}

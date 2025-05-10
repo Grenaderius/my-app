@@ -2,37 +2,52 @@ import Header from './Header';
 import Counter from './Counter';
 import './App.css';
 import React from "react";
-import Menu from "./components/menu/Menu";
-import UserCard from "./components/Cards/UserCard"
+import NavbarMenu from "./components/menu/NavbarMenu";
+import UserCard from "./components/Cards/UserCard";
+import Footer from "./components/Footer/Footer";
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import AboutUs from './pages/AboutUs';
+import Home from './pages/Home';
 
-const users = [
-    { name: "Bohdan", age: 25, city: "Shjutomyr" },
-    { name: "Myroslav", age: 60, city: "Berduchiv" },
-    { name: "Anastasia", age: 40, city: "Tysmenytsia" }
+/*const users = [
+    { name: "Богдан", age: 25, city: "Житомир", image: "/images/Stick_1.png"},
+    { name: "Мирослав", age: 60, city: "Бердичів", image: "/images/Stick_2.png" },
+    { name: "Анастасія", age: 40, city: "Тисмениця", image: "/images/Stick_3.png" }
 ]
+<Route path="/" element={
+                        <>
+                            <Header />
+                            <h1>My first React-project!</h1>
+                            <Counter />
+                            <div className="cards-container">
+                                {users.map((user, index) => (
+                                    <UserCard key={index} {...user} />
+                                ))}
+                            </div>
+                        </>
+                    } />*/
 
 function App() {
     return (
-        <section className="app">
-            <header className="app-header">
-                <Menu />
-            </header>
+        <>
+            <Router>
+                <div className="d-flex flex-column min-vh-100">
 
-            <div>
-                <Header />
-                <h1>My first React-project!</h1>
-                <Counter />
-            </div>
+                <NavbarMenu />
 
-            <div className="cards-container">
-                {users.map((user, index) => (
-                    <UserCard key={index} {...user} />
-                ))}
-            </div>
+                <div className="main-content">
+                <Routes>
+                            <Route path="/about" element={<AboutUs />} />
+                            <Route path="/" element={<Home />} />
 
-        </section>
+                    </Routes>
+                </div>
+                    <Footer />
+                </div>
+            </Router>
+        </>
     );
 }
-
 
 export default App;

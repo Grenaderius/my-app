@@ -1,17 +1,27 @@
 import React from "react";
 import "./UserCard.css";
+import { useNavigate } from 'react-router-dom';
 
-function UserCard({ name, age, city }) {
+
+function UserCard({ name, age, city, image}) {
+    const navigate = useNavigate();
+
     const handleClick = () => {
-        alert(`Hello, ${name}!`);
-    }
+        navigate('/about', {
+            state: { name, age, city, image }
+
+        });
+
+        //alert(`Hello, ${name}!`);
+    };
 
     return (
         <div className="user-card">
+            <img src={image} alt={name} width="100" height="120" />
             <h2>{name}</h2>
-            <p>Age: {age}</p>
-            <p>City: {city}</p>
-            <button onClick={handleClick}>Show hi</button>
+            <p>Вік: {age}</p>
+            <p>Місто: {city}</p>
+            <button onClick={handleClick}>Показати</button>
         </div>
     );
 }
