@@ -23,15 +23,21 @@ const NavbarMenu = () => {
 
                         <Nav.Link as={Link} to="/">Головна</Nav.Link>
                         <Nav.Link as={Link} to="/about">Про нас</Nav.Link>
+
+
                         <NavDropdown title="Більше" id="basic-nav-dropdown">
+
+                            <NavDropdown.Item as={Link} to="/join">Приєднатися</NavDropdown.Item>
+                            <NavDropdown.Divider />
 
                             <NavDropdown.Item href="https://docs.google.com/spreadsheets/d/1kkzzUGL1VGYnH3OrzGC8TsalzWd42ZNYfP6yhvxPi7U/edit?usp=sharing" target="_blank">
                                 Полковий реєстр</NavDropdown.Item>
                             <NavDropdown.Item href="https://www.fsegames.eu/forum/index.php?topic=49585.0" target="_blank">
                                 Форумна сторінка</NavDropdown.Item>
-                            <NavDropdown.Divider />
 
-                            <NavDropdown.Item as={Link} to="/join">Приєднатися</NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item as={Link} to="/support">Підтримати</NavDropdown.Item>
+                            
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>

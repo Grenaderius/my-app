@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    flex-direction: column;
 }
 
 .hero-overlay {
@@ -19,10 +19,167 @@
     justify-content: center;
 }
 
+.hero-bottom-line {
+    width: 100%;
+    height: 5px;
+    background-color: black;
+}
+
 .hero-title {
-    font-size: 4vw;
+    font-size: 6vw;
     text-align: center;
     padding: 0 1rem;
     color: #d4d400;
-    font-weight: 900;
+    font-weight: 1000;
+    font-family: 'Times New Roman';
+}
+
+p {
+    color: black !important;
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #444;
+}
+
+.middle-text-section {
+    background-color: #fdfdfd;
+    padding: 60px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.middle-text-header .offers-middle-text-header {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #222;
+    font-family: 'Georgia', serif;
+}
+
+.middle-text .middle-about-jobs-text {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #444;
+}
+
+.middle-about-jobs-text {
+    max-width: 300px;
+    text-align: left;
+    font-size: 25px;
+    text-align: center
+}
+
+.about-jobs-section {
+    background-color: #eaeaea;
+    padding: 40px 20px;
+}
+
+.about-jobs-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap; 
+    max-width: 900px; 
+    margin: 0 auto; 
+}
+
+
+.jobs-image {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.offers-list {
+    list-style: none;
+    padding-left: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+    .offers-list li {
+        font-size: 1.25rem;
+        line-height: 1.6;
+        color: #333;
+        position: relative;
+        margin-bottom: 15px;
+        background: url('../assets/Nr31FKR-logo-icon.svg') no-repeat left center;
+        background-size: 30px 30px; 
+        padding-left: 38px;
+    }
+
+.offers-section {
+    padding: 60px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.offers-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    padding: 60px 20px;
+}
+
+.offers-section-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 4px solid black;
+}
+
+.officers-section {
+    text-align: center;
+    background-color: #eaeaea;
+    padding: 20px 20px;
+}
+
+.middle-officers-content-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.officers-list {
+    list-style: none;
+    padding-left: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+    .officers-list li,
+    .officers-list-outer li {
+        font-size: 1.25rem;
+        line-height: 1.6;
+        color: #333;
+        position: relative;
+        margin-bottom: 15px;
+        background: url('../assets/musket-list-icon.svg') no-repeat left center;
+        background-size: 30px 30px;
+        padding-left: 38px;
+    }
+
+.officers-list-outer {
+    list-style: none;
+    padding-left: 20px;
+    max-width: 243px;
+    margin: 0 auto;
+    text-align: center;
 }
