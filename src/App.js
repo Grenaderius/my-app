@@ -9,6 +9,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AboutUs from './pages/AboutUs';
 import Home from './pages/Home';
+import Support from './pages/Support';
+import Join from './pages/Join';
 
 /*const users = [
     { name: "Богдан", age: 25, city: "Житомир", image: "/images/Stick_1.png"},
@@ -40,6 +42,8 @@ function App() {
                 <Routes>
                             <Route path="/about" element={<AboutUs />} />
                             <Route path="/" element={<Home />} />
+                            <Route path="/support" element={<Support />} />
+                            <Route path="/join" element={<Join />} />
 
                     </Routes>
                 </div>

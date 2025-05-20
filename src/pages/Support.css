@@ -1,0 +1,64 @@
+.support-header {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #222;
+    font-family: 'Georgia', serif;
+}
+
+.middle-section {
+    background-color: #eaeaea;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.support-mono-image{
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+}
+
+.support-private-image {
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.after-header-image-section{
+    text-align: center;
+}
+
+.support-before-after-image {
+    width: 700px;
+    height: 650px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 4px solid black;
+    margin-bottom: 40px;
+}
+
+.centered-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* відстань між елементами */
+    flex-wrap: wrap; /* на випадок маленького екрану */
+    text-align: center;
+}
+
+.ending-header {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 700;
+    color: #222;
+    font-family: 'Georgia', serif;
+}
+
+.side-image {
+    width: 150px; /* або інший розмір за потребою */
+    height: auto;
+}
