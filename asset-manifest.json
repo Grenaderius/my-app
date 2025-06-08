@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.7b4a90d2.css",
+    "main.css": "/my-app/static/css/main.062e80d6.css",
     "main.js": "/my-app/static/js/main.fa9ecd4e.js",
     "static/js/453.68693753.chunk.js": "/my-app/static/js/453.68693753.chunk.js",
     "static/media/20250412212747_1.jpg": "/my-app/static/media/20250412212747_1.7d095440fcb7fddac12e.jpg",
@@ -44,12 +44,12 @@
     "static/media/musket-list-icon.svg": "/my-app/static/media/musket-list-icon.409749d27edf66ff7958.svg",
     "static/media/one-bayonet-icon.svg": "/my-app/static/media/one-bayonet-icon.c24a717ad4058eef4ff2.svg",
     "index.html": "/my-app/index.html",
-    "main.7b4a90d2.css.map": "/my-app/static/css/main.7b4a90d2.css.map",
+    "main.062e80d6.css.map": "/my-app/static/css/main.062e80d6.css.map",
     "main.fa9ecd4e.js.map": "/my-app/static/js/main.fa9ecd4e.js.map",
     "453.68693753.chunk.js.map": "/my-app/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b4a90d2.css",
+    "static/css/main.062e80d6.css",
     "static/js/main.fa9ecd4e.js"
   ]
 }
