@@ -34,7 +34,7 @@ export default function Join() {
                         <li>Для повного занурення бажано також мати мікрофон, але якщо немає - нестрашно</li>
                     </ul>
 
-                    <img className="needs-section-image" src="/images/warband-nw-image.jpg" alt="" />
+                    <img className="needs-section-image" src={`${process.env.PUBLIC_URL}/images/warband-nw-image.jpg`} alt="" />
                 </div>
             </div>
 
@@ -43,13 +43,13 @@ export default function Join() {
                     <h2>Як приєднатися?</h2>
 
                     <div className="discord-section">
-                        <img className="discord-logo-image" src="/images/discord-logo.png" alt="Discord ЄУК" onClick={() => handleImageClick('https://discord.gg/fSsZSSwBCV')} />
+                        <img className="discord-logo-image" src={`${process.env.PUBLIC_URL}/images/discord-logo.png`} alt="Discord ЄУК" onClick={() => handleImageClick('https://discord.gg/fSsZSSwBCV')} />
                         <p>Щоб приєднатися до полку напиши у чаті Discord серверу ЄУК "Я хочу у полк Nr31" люди підкажуть згодом, що робити. Якщо тобі ніхто не відповідає - напиши у ПП Discord newton_manul.</p>
                     </div>
 
                     <div className="steam-section">
                         <p>Також можна написати будь-якому із наших командувачів, наведених у нашій групі Steam.</p>
-                        <img className="steam-logo-image" src="/images/steam-logo.png" alt="Група Nr31FKR Steam" onClick={() => handleImageClick('https://steamcommunity.com/groups/nr31fkr')} />
+                        <img className="steam-logo-image" src={`${process.env.PUBLIC_URL}/images/steam-logo.png`} alt="Група Nr31FKR Steam" onClick={() => handleImageClick('https://steamcommunity.com/groups/nr31fkr')} />
                     </div>
 
                 </div>

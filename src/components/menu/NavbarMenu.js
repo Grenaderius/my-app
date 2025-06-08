@@ -10,7 +10,7 @@ const NavbarMenu = () => {
             <Container>
                 <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
                     <img
-                        src="/images/Nr31FKR_logo.jpg"
+                        src={`${process.env.PUBLIC_URL}/images/Nr31FKR_logo.jpg`}
                         alt="Логотип"
                         className="logo-img"
                     />

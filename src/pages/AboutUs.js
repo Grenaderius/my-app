@@ -26,7 +26,7 @@ export default function AboutUs() {
 
                     </div>
 
-                    <img className="ukrainian-flag" src="/images/Flag_of_Ukraine_with_Nr31_emblem.png" alt="Український прапор"></img>
+                    <img className="ukrainian-flag" src={`${process.env.PUBLIC_URL}/images/Flag_of_Ukraine_with_Nr31_emblem.png`} alt="Український прапор"></img>
                 </div>
             </div>
 

@@ -43,7 +43,7 @@ export default function Home() {
                             </ul>
                         </div>
 
-                        <img className="offers-section-image" src="/images/offers-section-image.jpg" alt="" />
+                    <img className="offers-section-image" src={`${process.env.PUBLIC_URL}/images/offers-section-image.jpg`} alt="" />
 
                     </div>
                 </div>
@@ -58,7 +58,7 @@ export default function Home() {
 
                     <div className="middle-officers-content-section">
 
-                        <img className="officers-section-image" src="/images/Nr31FKR_logo-no-back.png" alt="Логтип Nr31FKR" />
+                        <img className="officers-section-image" src={`${process.env.PUBLIC_URL}/images/Nr31FKR_logo-no-back.png`} alt="Логтип Nr31FKR" />
 
                         <ul className="officers-list">
                             <li className="list-group-item">Офіцер - Sagaydachnyi</li>
@@ -72,7 +72,7 @@ export default function Home() {
                             <li className="list-group-item">Офіцер - Ben</li>
                         </ul>
 
-                        <img className="officers-section-image" src="/images/Nr31FKR_logo-no-back.png" alt="Логотип Nr31FKR" />
+                        <img className="officers-section-image" src={`${process.env.PUBLIC_URL}/images/Nr31FKR_logo-no-back.png`} alt="Логотип Nr31FKR" />
 
                     </div>
                     <ul className="officers-list-outer">
