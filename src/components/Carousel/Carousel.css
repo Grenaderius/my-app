@@ -1,0 +1,29 @@
+.carousel-wrapper {
+    max-height: 700px;
+    background-color: black;
+    position: relative;
+    border-bottom: 5px solid black; /* ОЦЕ робить чорну рамку знизу */
+}
+
+
+.carousel-image {
+    height: 700px;
+    width: 100%;
+    object-fit: contain; /* зберігає пропорції без обрізки */
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+.carousel-indicators .active {
+    background-color: #ffffff;
+}

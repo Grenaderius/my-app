@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Footer.css";
-import { FaGithub, FaDiscord, FaYoutube, FaLinkedin, FaSteam } from "react-icons/fa";
+import { FaGithub, FaDiscord, FaYoutube, FaLinkedin, FaSteam, FaSpotify } from "react-icons/fa";
 
 export default function Footer() {
     return (
@@ -13,6 +13,7 @@ export default function Footer() {
                         <a href="https://www.youtube.com/@silentfanat2698" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
                         <a href="https://discord.gg/fSsZSSwBCV" target="_blank" rel="noopener noreferrer"><FaDiscord /></a>
                         <a href="https://steamcommunity.com/groups/nr31fkr" target="_blank" rel="noopener noreferrer"><FaSteam /></a>
+                        <a href="https://open.spotify.com/playlist/3lRzWATRJF8vWOyWw0yQ0J?si=qzhnSOvGR-Kb6W-HQRRzMA&nd=1&dlsi=7c08ec009e604637" target="_blank" rel="noopener noreferrer"><FaSpotify /></a>
                     </div>
                 </div>
 

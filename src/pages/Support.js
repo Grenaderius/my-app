@@ -3,7 +3,7 @@ import './Support.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Support() {
 
-    const [imageSrc, setImageSrc] = useState('/images/Support-image-before.png')
+    const [imageSrc, setImageSrc] = useState('/images/Support-image-before.png');
 
     const handleImageClick = (newImage, link) => {
         setImageSrc(newImage);
