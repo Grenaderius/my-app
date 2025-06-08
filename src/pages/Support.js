@@ -26,8 +26,8 @@ export default function Support() {
 
             <div className="middle-section">
                 <div className="container">
-                    <img className="support-private-image" src={`${process.env.PUBLIC_URL}/images/private-convert.png`} alt="Конверт Приват Банк" onClick={() => handleImageClick('/images/Support-image-after.png', 'https://www.privat24.ua/send/27n07')} />
-                    <img className="support-mono-image" src={`${process.env.PUBLIC_URL}/images/banka-mono.png`} alt="Монобанка" onClick={() => handleImageClick('/images/Support-image-after.png', 'https://send.monobank.ua/jar/3m9TAxi5Eb')} />
+                    <img className="support-private-image" src={`${process.env.PUBLIC_URL}/images/private-convert.png`} alt="Конверт Приват Банк" onClick={() => handleImageClick('Support-image-after.png', 'https://www.privat24.ua/send/27n07')} />
+                    <img className="support-mono-image" src={`${process.env.PUBLIC_URL}/images/banka-mono.png`} alt="Монобанка" onClick={() => handleImageClick('Support-image-after.png', 'https://send.monobank.ua/jar/3m9TAxi5Eb')} />
                 </div>
             </div>
 
