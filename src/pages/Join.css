@@ -36,19 +36,17 @@ p {
 }
 
 .links-section {
-    display: flex; /* робимо флекс-контейнер */
-    justify-content: center; /* горизонтальне центруванн€ всього вм≥сту */
-    width: 100%; /* розт€гуЇмо на всю ширину */
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
-    /* ¬нутр≥шн€ .container Ц бажано теж поставити флекс-колонку
-   (щоб Discord- ≥ Steam-блоки стали один п≥д одним) */
     .links-section .container {
         display: flex;
-        flex-direction: column; /* елементи в колонку */
-        align-items: center; /* центруЇмо њх усередин≥ */
-        gap: 0px; /* пром≥жок м≥ж блоками */
-        max-width: 1000px; /* за потреби обмежуЇмо ширину */
+        flex-direction: column; 
+        align-items: center;
+        gap: 0px;
+        max-width: 1000px;
     }
 
 .discord-section,
@@ -131,3 +129,33 @@ p {
     border: 4px solid black;
 }
 
+@media (max-width: 768px) {
+    .needs-content {
+        flex-wrap: wrap; 
+        gap: 20px;
+    }
+
+    .needs-list {
+        flex: 1 1 100%;
+        max-width: 600px;
+    }
+
+    .needs-section-image {
+        flex: 1 1 100%;
+        max-width: 100%;
+        height: auto;
+        border-width: 2px;
+    }
+}
+
+@media (max-width: 480px) {
+    .needs-list {
+        max-width: 100%;
+    }
+
+    .needs-section-image {
+        max-width: 100%;
+        height: auto;
+        border-width: 2px;
+    }
+}

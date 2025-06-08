@@ -2,14 +2,14 @@
     max-height: 700px;
     background-color: black;
     position: relative;
-    border-bottom: 5px solid black; /* ОЦЕ робить чорну рамку знизу */
+    border-bottom: 5px solid black;
 }
 
 
 .carousel-image {
     height: 700px;
     width: 100%;
-    object-fit: contain; /* зберігає пропорції без обрізки */
+    object-fit: contain;
     background-color: black;
     display: block;
     margin: 0 auto;

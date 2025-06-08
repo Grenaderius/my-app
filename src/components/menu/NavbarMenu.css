@@ -1,18 +1,15 @@
-/* Логотип */
 .logo-img {
     width: 30px;
     height: 30px;
     object-fit: contain;
 }
 
-/* Назва сайту */
 .site-title {
     font-weight: bold;
     font-size: 1.2rem;
     color: yellow !important;
 }
 
-/* Жовтий текст для навігаційних елементів */
 .myNav .nav-link,
 .myNav .navbar-brand,
 .myNav .dropdown-toggle,
@@ -20,7 +17,6 @@
     color: yellow !important;
 }
 
-/* Фон навбару */
 .myNav {
     background-color: black !important;
     position: fixed;
@@ -32,7 +28,6 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
-    /* Для випадаючого меню */
     .myNav .dropdown-item {
         color: yellow !important;
         background-color: black !important;
@@ -53,7 +48,6 @@
         border: none;
     }
 
-    /* Для кнопки випадаючого меню */
     .myNav .dropdown-toggle {
         color: yellow !important;
     }
@@ -62,12 +56,11 @@
             color: #fff700 !important;
         }
 
-    /* Стилі для кнопки мобільного меню (дефолтний вигляд) */
     .myNav .navbar-toggler {
-        background-color: black !important; /* Чорний фон для кнопки */
-        border: 2px solid yellow !important; /* Жовта обводка */
+        background-color: black !important;
+        border: 2px solid yellow !important;
     }
 
     .myNav .navbar-toggler-icon {
-        background-color: yellow !important; /* Жовті риски для кнопки */
+        background-color: yellow !important;
     }
