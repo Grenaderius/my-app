@@ -22,7 +22,7 @@ export default function Home() {
 
             <div className="about-jobs-section">
                 <div className="container about-jobs-content">
-                    <img className="jobs-image mt-3" src="/images/jobs.jpg" alt="Основні ігрові юніти" />
+                    <img className="jobs-image mt-3" src={`${process.env.PUBLIC_URL}/images/jobs.jpg`} alt="Основні ігрові юніти" />
                     <p className="middle-about-jobs-text">Наші основні ігрові юніти - лінійна піхота, артилерія та єгері.</p>
                 </div>
             </div>
