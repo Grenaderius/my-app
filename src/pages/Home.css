@@ -178,11 +178,6 @@ p {
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    .hero-title {
-        font-size: 10vw;
-    }
-
     .jobs-image,
     .offers-section-image {
         width: 100%;
