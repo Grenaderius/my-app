@@ -11,8 +11,8 @@ import Join from './Pages/Join';
 
 function App() {
     return (
-        <>
-            <Router>
+        <> 
+            <Router basename="/my-app">
                 <div className="d-flex flex-column min-vh-100">
 
                 <NavbarMenu />
