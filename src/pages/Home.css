@@ -10,20 +10,6 @@
     flex-direction: column;
 }
 
-@media (max-width: 768px) {
-    .hero-title {
-        font-size: 10vw;
-        padding: 0 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero-title {
-        font-size: 12vw;
-        padding: 0 0.5rem;
-    }
-}
-
 .hero-overlay {
     background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
