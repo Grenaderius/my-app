@@ -2,7 +2,7 @@ import './App.css';
 import React from "react";
 import NavbarMenu from "./components/Menu/NavbarMenu";
 import Footer from "./components/Footer/Footer";
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AboutUs from './Pages/AboutUs';
 import Home from './Pages/Home';
